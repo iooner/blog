@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[i]ooner</title>
+    <description>iooner.me - DIY, Hack, Développement web, Domotique.
+</description>
+    <link>https://www.iooner.me/</link>
+    <atom:link href="https://www.iooner.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 14 Aug 2015 10:47:45 +0100</pubDate>
+    <lastBuildDate>Fri, 14 Aug 2015 10:47:45 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+
+    
+      <item>
+        <title>Abri Meteo Diy</title>
+        <description>&lt;p&gt;Un abri météo en plastique “pro” coûte rapidement plus d’une centaine d’euros. Ayant déjà un abri pro monté sur ma Davis Vantage Pro 2 (station météo). J’ai besoin d’en abri de la pluie et des radiations solaires, mais tout en laissant bien circuler l’air. Afin d’y installer quelques capteurs de qualité d’air et d’impact de foudre.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;liste-des-courses&quot;&gt;Liste des courses&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;10 coupelles 24cm (0,85€/p),&lt;/li&gt;
+  &lt;li&gt;36 écrous large 8mm (0,20€/p),&lt;/li&gt;
+  &lt;li&gt;2 Bombes de peinture blanche (5,45€/p),&lt;/li&gt;
+  &lt;li&gt;2m de tige filetée 8mm inox (3,80€/p),&lt;/li&gt;
+  &lt;li&gt;Quelques écrous pour finaliser l’abri.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;construction&quot;&gt;Construction&lt;/h2&gt;
+&lt;p&gt;Les tiges filetés sont coupées à 35cm, la taille est parfaite pour prévoir une fixation pour la suite.&lt;br /&gt;
+Percer les 8 coupelles d’un coup afin d’avoir une entrée pour la scie sauteuse et obtenir notre “trou” central. A cette étape, les coupelles sont pre-peintes.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+   &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/abrimeteo/meteo1.jpg&quot; title=&quot;&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/abrimeteo/meteo1.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/abrimeteo/meteo2.jpg&quot; title=&quot;&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/abrimeteo/meteo2.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+     &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/abrimeteo/meteo3.jpg&quot; title=&quot;&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/abrimeteo/meteo3.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+     &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/abrimeteo/meteo4.jpg&quot; title=&quot;&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/abrimeteo/meteo4.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Bonus&lt;/strong&gt; Je découpe à la scie sauteuse 2 disques dans de l’alu 3mm afin d’avoir une rigidité maximale. Sans le montage est un peu trop fragile à mon goût forçant sur le plastique des coupelles.&lt;br /&gt;
+&lt;br /&gt;
+Viser les écrous de fin et enfiler la plaque d’alu et la première coupelle. Cette première coupelle est une coupelle pleine ! Enfiler les premiers écrous larges et la seconde coupelle (percée).&lt;br /&gt;
+Continuer ainsi de suite. Une coupelle, écrous, coupelle, écrous.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/abrimeteo/meteo5.jpg&quot; title=&quot;&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/abrimeteo/meteo5.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/abrimeteo/meteo6.jpg&quot; title=&quot;&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/abrimeteo/meteo6.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/abrimeteo/meteo7.jpg&quot; title=&quot;&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/abrimeteo/meteo7.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;La dernière coupelle du dessus est une coupelle pleine et pour terminer la deuxième plaque d’alu.&lt;br /&gt;
+Un dernier coup de peinture et le tour est joué !&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/abrimeteo/meteo8.jpg&quot; title=&quot;&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/abrimeteo/meteo8.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/abrimeteo/meteo9.jpg&quot; title=&quot;&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/abrimeteo/meteo9.jpg&quot; alt=&quot;&quot; /&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Petit tip&lt;/strong&gt; si vous en avez marre de visser vos écrous sur les tiges filetées comme des geux.&lt;br /&gt;
+Un morceau de chambre à air et le tour est joué !&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4T5r8cpJxx0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 12 Aug 2015 12:28:34 +0100</pubDate>
+        <link>https://www.iooner.me/abri-meteo-diy/</link>
+        <guid isPermaLink="true">https://www.iooner.me/abri-meteo-diy/</guid>
+        
+        <category>Abri</category>
+        
+        <category>Météo</category>
+        
+        <category>DIY</category>
+        
+        
+        <category>diy</category>
+        
+        <category>météo</category>
+        
+      </item>
+    
+      <item>
+        <title>Youtube Bricole Yourself</title>
+        <description>&lt;p&gt;Hellow!&lt;br /&gt;
+Grâce à &lt;a href=&quot;https://twitter.com/VChabrette/status/627535604335648768&quot;&gt;@vchabrette&lt;/a&gt; et à notre échange sur Twitter, j’ai fait le constat que non, tout le monde ne connait pas encore Jimmy DiResta et cie! Je vous propose de faire un petit tour des bricoleurs, youtubeurs badass avec des bou… des outils en acier inoxidable que j’apprécie particulièrement.
+&lt;br /&gt;&lt;br /&gt;
+Pardonnez-moi, mais toutes les chaînes sont anglophones. Si vous avez des francophones du même millésime faites-le moi savoir dans les commentaires !
+&lt;br /&gt;&lt;br /&gt;
+On commence par &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCiEk4xHBbz0hZNIBBpowdYQ&quot;&gt;Jimmy DiResta&lt;/a&gt;&lt;/strong&gt;, c’est juste le monsieur. L’as des as du ciseau à bois, du poste à souder. Vous voulez un bar ? Une enseigne ? Où n’importe quoi ? C’est à lui qu’il faut s’adresser.  &lt;/p&gt;
+
+&lt;p&gt;Vous pouvez le retrouver sur &lt;a href=&quot;https://www.youtube.com/channel/UCiEk4xHBbz0hZNIBBpowdYQ&quot;&gt;sa chaîne&lt;/a&gt;.&lt;br /&gt;
+Mais aussi sur la chaîne du &lt;a href=&quot;https://www.youtube.com/channel/UChtY6O8Ahw2cz05PS2GhUbg&quot;&gt;Make Magazine&lt;/a&gt; &lt;em&gt;(que je vous recommande aussi, ainsi que le magazine)&lt;/em&gt;.  &lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vd_zP38OToY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+Dans le genre qui roule sur les essieux voici le champion du monde, il buzz pas mal en ce moment grâce à son lit éjectable. &lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCp68_FLety0O-n9QU6phsgw&quot;&gt;Colin Furze&lt;/a&gt;&lt;/strong&gt; !  &lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/EVzn1pl4nlo&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+   &lt;div class=&quot;col-xs-6 col-md-6&quot;&gt;
+    &lt;a href=&quot;/img/upload/drunk.png&quot; title=&quot;Drunkenwood&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/drunk.png&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-6&quot;&gt;
+    &lt;a href=&quot;/img/upload/mtm.png&quot; title=&quot;MTMwood&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/mtm.png&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Vous aimez le bois ? Alors &lt;strong&gt;voici deux chaînes&lt;/strong&gt; !&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/channel/UCtaykeSsGhtn2o2BsPm-rsw&quot;&gt;Drunkenwood&lt;/a&gt; le Mozart du bois, &lt;a href=&quot;https://www.youtube.com/channel/UCWBTyvNhUXq0ofu6ta1EAaQ&quot;&gt;MTMwood&lt;/a&gt; et son superbe logo &lt;a href=&quot;https://www.youtube.com/watch?t=54&amp;amp;v=rUeaAOIMQ_M&quot;&gt;Youtube (évidemment en bois)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Je termine par une chaîne qui sort un peu du canevas, &lt;a href=&quot;https://www.youtube.com/channel/UCiDJtJKMICpb9B1qf7qjEOA&quot;&gt;Tested&lt;/a&gt;, mais Adam Savage &lt;em&gt;(ouep le mec de MythBusters)&lt;/em&gt; y publie pas mal de vidéos où il bricole dans son atelier. &lt;em&gt;Atelier que vous pouvez visiter sur GoogleMaps si vous arrivez à en trouver l’entrée !&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/l9AqYaSRjw0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 01 Aug 2015 23:24:05 +0100</pubDate>
+        <link>https://www.iooner.me/youtube-bricole-yourself/</link>
+        <guid isPermaLink="true">https://www.iooner.me/youtube-bricole-yourself/</guid>
+        
+        <category>youtube</category>
+        
+        <category>DiResta</category>
+        
+        <category>Bricolage</category>
+        
+        <category>Drunkenwood</category>
+        
+        <category>MTMwood</category>
+        
+        
+        <category>en passant</category>
+        
+        <category>hardware</category>
+        
+      </item>
+    
+      <item>
+        <title>Nouveau Nas Synology Ds414j</title>
+        <description>&lt;h2 id=&quot;encore-un-nas-&quot;&gt;Encore un NAS ?&lt;/h2&gt;
+&lt;p&gt;Effectivement j’ai déjà un Synology DS713+ 2 baies qui me sert pour faire tourner quelques app, stocker quelques backups et une copie de la Timemachine.
+&lt;br /&gt;&lt;br /&gt;
+Mais je commence à être un peu à l’étroit surtout avec mes photos. Je photographie en RAW, il est courant d’avoir des photos de 30Mo. Il me fallait une solution relativement lowcost et fiable. Par habitude et satisfaction j’ai choisi de rester chez Synology.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+   &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/newnas/syno1.jpg&quot; title=&quot;The box!&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/newnas/syno1.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/newnas/syno2.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/newnas/syno2.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+     &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/newnas/syno3.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/newnas/syno3.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+     &lt;div class=&quot;col-xs-6 col-md-3&quot;&gt;
+    &lt;a href=&quot;/img/upload/newnas/syno4.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/newnas/syno4.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;J’ai fais le choix de 4 disques de 3To de la marque et série Seagate Surveillance HDD. Selon le constructeur, ils sont prévus à la base pour du NVR (enregistreur vidéo IP) donc résistant à l’écriture intensive. Etant donné que je vais également y stocker des copies de vidéosurveillance, je pense que cela s’y prête plutôt bien.&lt;/p&gt;
+
+&lt;p&gt;Le tout, en un volume “Synology SHR” qui me laisse un peu moins de 9To de stockage avec une tolérance de panne d’un disque. Niveau lecture il se défend plutôt bien. Niveau écriture c’est pas mal non plus, quoi qu’un peu plus lent. &lt;em&gt;(Je ferai un retour sur ce point dès que je l’aurais un peu plus utilisé avec l’enregistrement des caméras actif).&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;
+En conclusion, aux alentours de 300€ pour le NAS et 100€ par disque cela reste une solution abordable pour ce que je recherchais. Seul gros regret, l’absence d’un double LAN et de hotswap des disques comme sur le 713+. Mais bon à ce prix, on ne va pas trop se plaindre :).&lt;/p&gt;
+</description>
+        <pubDate>Thu, 30 Jul 2015 23:35:14 +0100</pubDate>
+        <link>https://www.iooner.me/nouveau-nas-synology-ds414j/</link>
+        <guid isPermaLink="true">https://www.iooner.me/nouveau-nas-synology-ds414j/</guid>
+        
+        <category>Synology</category>
+        
+        <category>NAS</category>
+        
+        <category>DS414j</category>
+        
+        <category>unboxing</category>
+        
+        
+        <category>unboxing</category>
+        
+        <category>hardware</category>
+        
+      </item>
+    
+      <item>
+        <title>Plaque De Chladni A Base De Recup</title>
+        <description>&lt;h2 id=&quot;chladni-kzako&quot;&gt;Chladni kézako?!&lt;/h2&gt;
+&lt;p&gt;Ernst Chladni est le fondateur de l’acoustique moderne. Il étudiait expérimentalement les vibrations des plaques, en les saupoudrant de sable fin, obtenant ainsi des figures acoustiques. &lt;em&gt;Wikipédia&lt;/em&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Si vous souhaitez en savoir plus sur les figures de Chladni :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;En français chez ExpérimentBoy : &lt;a href=&quot;https://www.youtube.com/watch?v=VSxRJPTxO9U&quot;&gt;https://www.youtube.com/watch?v=VSxRJPTxO9U&lt;/a&gt;  &lt;/li&gt;
+  &lt;li&gt;En anglais chez PhysicsGirl : &lt;a href=&quot;https://www.youtube.com/watch?v=wYoxOJDrZzw&quot;&gt;https://www.youtube.com/watch?v=wYoxOJDrZzw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cest-parti-&quot;&gt;C’est parti !&lt;/h2&gt;
+&lt;p&gt;L’idée est donc de réaliser une “plaque de Chladni” pour pas un rond ou presque. J’ai eu l’envie de m’y coller en triant les photos de la MakerFaire 2015 voyant une photo d’un gars ayant réalisé un montage semblable à celui que je vais vous décrire.&lt;br /&gt;
+Durant mes recherches je suis tombé sur ce “&lt;a href=&quot;http://www.instructables.com/id/Mechanical-Wave-Driver-for-Chladni-Plate/&quot;&gt;instructable&lt;/a&gt;” qui va être notre base de travail.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Il vous faudra :&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Une pièce de bois,&lt;/li&gt;
+  &lt;li&gt;De la tige filetée de 5,&lt;/li&gt;
+  &lt;li&gt;Ecrous de 5,&lt;/li&gt;
+  &lt;li&gt;Une plaque d’alu plutôt fine,&lt;/li&gt;
+  &lt;li&gt;Un vieux haut-parleur,&lt;/li&gt;
+  &lt;li&gt;Un bouchon de bouteille (Coca-Cola dans mon cas),&lt;/li&gt;
+  &lt;li&gt;Un pistolet à colle,&lt;/li&gt;
+  &lt;li&gt;De quoi souder et un peu de câble audio.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce qui est bien, c’est que j’avais tout sous la main !&lt;/p&gt;
+
+&lt;h2 id=&quot;sortez-les-outils-&quot;&gt;Sortez les outils !&lt;/h2&gt;
+
+&lt;p&gt;Je découpe un vieux diffuseur et je récupère le haut-parleur qui s’y trouve.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step1.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step1.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step2.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step2.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+     &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step3.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step3.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Un coup de fer à souder, on enlève les vieux fils pour remplacer par de nouveau qui n’est pas rongé.&lt;br /&gt;
+Une photo sympa avec de la sciure de bois qui traînait avant de commencer les choses sérieuses.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step4.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step4.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step5.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step5.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step6.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step6.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Au cutter, retirer la membrane en papier du haut-parleur, attention à ne pas percer celle en dessous.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step7.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step7.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step8.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step8.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Percer à la mèche de 5 le bouchon de bouteille bien au centre. Passer la tige filetée et deux écrous. Il suffit de serrer le tout et le tour est joué !&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step9.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step9.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step10.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step10.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Préparation d’un support sympa avec un morceau de bois dans lequel sont enfoncés des morceaux de tige filetée. Effiler le haut-parleur et le fixer. Un coup de pistolet à colle et notre tige centrale est fixée !&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step11.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step11.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step12.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step12.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step13.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step13.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Un petit morceau de plexy qui traînait recoupé aux bonnes mesures est un petit ajout des plus sympathique ! Il est fixé à son tour.&lt;br /&gt;
+Un écrou sur la tige centrale, notre plaque d’alu (19cm x 19cm ici) et un autre écrou. Bien serrer le tout ! Les vibrations ont du talent à revendre dans le désserrage.&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step14.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step14.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step15.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step15.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+   &lt;div class=&quot;col-xs-6 col-md-4&quot;&gt;
+    &lt;a href=&quot;/img/upload/chladni/step16.jpg&quot; class=&quot;thumbnail&quot; data-gallery=&quot;&quot;&gt;
+      &lt;img src=&quot;/img/upload/chladni/step16.jpg&quot; alt=&quot;&quot; /&gt;  
+    &lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;rsultat&quot;&gt;Résultat&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Une petite démonstration vaut mieux que dix mille mots !&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;p&gt;Le haut-parleur est connecté à un ampli et à son tour sur mon smartphone avec l’application PA Tone qui fait plutôt bien le boulot.  &lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_hFfYj4ivKk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Les résultats ne sont pas exceptionnels, mais cela permet déjà de jouer avec les figures de Chladni à vraiment pas cher. :) Je pense qu’une place d’alu un peu plus grande et plus fine donnerait de meilleurs résultats. Un vibreur ne doit pas être très cher, mais c’est tellement plus fun de jouer avec ce que l’on a sous la main dans son atelier :)&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Avant de se quitter une autre vidéo juste pour le fun. &lt;em&gt;(Désolé pour le choix de la musique)&lt;/em&gt;.  &lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/75W25aHGHys&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 29 Jul 2015 21:56:38 +0100</pubDate>
+        <link>https://www.iooner.me/plaque-de-chladni-a-base-de-recup/</link>
+        <guid isPermaLink="true">https://www.iooner.me/plaque-de-chladni-a-base-de-recup/</guid>
+        
+        <category>Chladni</category>
+        
+        <category>plaque</category>
+        
+        <category>DIY</category>
+        
+        <category>figures</category>
+        
+        
+        <category>diy</category>
+        
+        <category>science</category>
+        
+      </item>
+    
+      <item>
+        <title>Reflexion Domotique Mysensors</title>
+        <description>&lt;p&gt;Dans cette première approche à la domotique mon bureau servira de “maquette” à la maison entière pour certaines parties. Ceux suivant le blog vont très certainement remarquer que plusieurs projets que je cite ci-dessous sont déjà en place chez moi. Le souci, ils sont chacun dans leur coin à parler “leur langue”. Il est temps de standardiser et centraliser sur Jeedom.&lt;/p&gt;
+
+&lt;h2 id=&quot;liste-des-premiers-besoins&quot;&gt;Liste des premiers besoins&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Compteur électrique,&lt;/li&gt;
+  &lt;li&gt;Compteur d’eau,&lt;/li&gt;
+  &lt;li&gt;Niveau de sel (adoucisseur d’eau),&lt;/li&gt;
+  &lt;li&gt;Passage du facteur,&lt;/li&gt;
+  &lt;li&gt;Contrôle et état de la porte du garage,&lt;/li&gt;
+  &lt;li&gt;Intégration de la station météo (Davis Vantage Pro 2).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Dans le bureau&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gestion du chauffage,&lt;/li&gt;
+  &lt;li&gt;Gestion de la climatisation,&lt;/li&gt;
+  &lt;li&gt;Détection de présence,&lt;/li&gt;
+  &lt;li&gt;Détection de fumées (incendie),&lt;/li&gt;
+  &lt;li&gt;Gestion et monitoring de certaines prises électriques,&lt;/li&gt;
+  &lt;li&gt;Vidéosurveillance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;les-solutions-maisons&quot;&gt;Les “solutions maisons”&lt;/h2&gt;
+&lt;p&gt;J’ai arrêté mon choix sur Jeedom dans le choix de la “box domotique”. Il sera installé sur un petit serveur atom pour le master et utilisera une Raspberry Pi en esclave placé au centre de la maison.&lt;br /&gt;
+Le pi sera équipé d’un RFXCOM 433Mhz et du Razberry (contrôleur zwave).  &lt;/p&gt;
+
+&lt;p&gt;Pour le compteur électrique, le compteur d’eau, le niveau de sel, le passage du facteur,… Cette partie sera totalement DIY sur base du projet &lt;a href=&quot;http://www.mysensors.org/&quot;&gt;MySensors&lt;/a&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Compteur électrique&lt;/strong&gt; : capteur effet de hall,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Compteur d’eau&lt;/strong&gt; : barrière infrarouge (samples gratuis Vishay),&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Niveau de sel&lt;/strong&gt; : capteur HC-SR04 (calcul du niveau par rapport au couvercle),&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Passage du facteur&lt;/strong&gt; : capteur de luminosité (ouveture du clapet) et barrière infrarouge. 2 facteurs afin d’éviter les faux positifs,&lt;/li&gt;
+  &lt;li&gt;Etat &lt;strong&gt;porte du garage&lt;/strong&gt; : 2 capteurs de porte magnétique (3 états possible : Ouvert, Fermé ou entre deux.),&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Climatisation&lt;/strong&gt; du bureau : émulation les codes ir envoyé par la télécommande. Avec un retour d’état de la led de fonctionnement (capteur luminosité) et d’une sonde de température à la sortie du climatiseur.  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Au passage, chaque point MySensors embarquera un DHT22 (sonde temp/hum) afin d’avoir un retour des températures, dans toute la maison.&lt;/p&gt;
+
+&lt;h2 id=&quot;les-solutions-classiques&quot;&gt;Les “solutions classiques”&lt;/h2&gt;
+
+&lt;p&gt;De simples modules 433Mhz que je possède déjà ou du Zwave.  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gestion du &lt;strong&gt;chauffage&lt;/strong&gt; : Vanne domotique (zwave) Danfoss,&lt;/li&gt;
+  &lt;li&gt;Détection de &lt;strong&gt;présence&lt;/strong&gt; : Fibaro Eye Zwave,&lt;/li&gt;
+  &lt;li&gt;Détection &lt;strong&gt;fummées/incendie&lt;/strong&gt; : Fibaro FGSS-001 Zwave,&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prises électriques&lt;/strong&gt; : Recyclage des chacon DI-O (433Mhz sans retour d’état) pour les points les moins critiques, pour les autres utilisation de Fibaro WallPlug (Zwave avec retour d’état et consomation).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pour-la-vidosurveillance-et-la-station-mto-&quot;&gt;Pour la vidéosurveillance et la station météo ?&lt;/h2&gt;
+&lt;p&gt;Pour la &lt;strong&gt;vidéosurveillance&lt;/strong&gt;, les constructeurs allant tous de leur petite interface et solution mobile et cie, je vais faire simple. Tous les flux RTSP (relativement standard dans ce milieu) remonteront à mon ZoneMinder et ensuite dans Jeedom.  Jeedom affichera dans un joli dashboard alors que ZoneMinder s’occupera de toute la partie détection, zones, …  &lt;/p&gt;
+
+&lt;p&gt;La &lt;strong&gt;station météo&lt;/strong&gt; est en cours de déménagement &lt;em&gt;(article à venir)&lt;/em&gt;, elle vient de se trouver un jardin à proximité de chez-moi. Ce qui me permettra d’avoir des mesures optimales. La station remonte sur le web via une RaspberryPi embarquant MétéoHub un fichier RAW. Il suffira de développer un petit plugin à Jeedom afin de lire ce fichier RAW sur le web ou au travers du VPN me liant à ma station.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 08 Apr 2015 16:42:02 +0100</pubDate>
+        <link>https://www.iooner.me/reflexion-domotique-mysensors/</link>
+        <guid isPermaLink="true">https://www.iooner.me/reflexion-domotique-mysensors/</guid>
+        
+        <category>mysensors</category>
+        
+        <category>zwave</category>
+        
+        <category>Jeedom</category>
+        
+        <category>domotique</category>
+        
+        
+        <category>domotique</category>
+        
+        <category>diy</category>
+        
+      </item>
+    
+      <item>
+        <title>Mysensors Introduction Et Theorie</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;MySensors est un projet opensource (hardware et software), permettant de réaliser vos propres sondes/capteurs par exemple dans le cadre d’une installation domotique.&lt;br /&gt;
+Ce projet utilise se base presque qu’exclusivement sur Arduino. Fort de de l’usage d’Arduino et de ses 2 communautés (Forum MySensors et les milliers de “bidouilleurs Arduino”), il en fait un projet parfait que je souhaitais vous présentez.  &lt;/p&gt;
+
+&lt;h2 id=&quot;thorie&quot;&gt;Théorie&lt;/h2&gt;
+&lt;p&gt;MySensors à fait le choix d’une utilisation sans fil (Parfait c’est ce que je recherchais) pour ses sensors, relays et gateway. C’est l’usage de la bande 2.4Ghz que vous connaissez je présume déjà grâce au wifi. 2 modules 2.4Ghz reviennent autour de 10$ ce qui reste accessible pour le plus grand nombre :)  &lt;/p&gt;
+
+&lt;p&gt;Je parlais de sensors (&lt;strong&gt;S&lt;/strong&gt;), relays (&lt;strong&gt;R&lt;/strong&gt;), gateway (&lt;strong&gt;GW&lt;/strong&gt;) et aussi de capteurs (les capteurs seront des sondes de température, …), nous voilà sur la même longueur d’onde d’un point de vue vocabulaire. C’est sommairement comme ça que se compose MySensors.&lt;br /&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;/img/upload/network_ms.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+Les différents capteurs (température, pression, …) sont connectés à une arduino qui elle même se connecte via son module 2.4Ghz à un relays ou directement à la gateway. Le relay permet juste d’étendre la surface de votre installation. &lt;em&gt;A vérifier s’il est possible d’implanter des capteurs sur une carte relay.&lt;/em&gt;  &lt;/p&gt;
+
+&lt;p&gt;Et pour terminer la gateway se connecte en réseau ou en USB à une box domotique, un pc, serveur… La compatibilité est grande et le système est facile à adapter à son usage.
+&lt;br /&gt;&lt;br /&gt;
+Une série d’articles va suivre sur la réalisation d’un projet MySensors intégrer à ma domotique Jeedom ou Domoticz, le choix n’est pas définitif. Je vous laisse ici le lien du projet &lt;a href=&quot;http://www.mysensors.org/&quot;&gt;MySensors&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 18 Mar 2015 14:15:48 +0000</pubDate>
+        <link>https://www.iooner.me/mysensors-introduction-et-theorie/</link>
+        <guid isPermaLink="true">https://www.iooner.me/mysensors-introduction-et-theorie/</guid>
+        
+        <category>sensors</category>
+        
+        <category>capteurs</category>
+        
+        <category>maison</category>
+        
+        <category>mysensors</category>
+        
+        <category>électronique</category>
+        
+        
+        <category>diy</category>
+        
+      </item>
+    
+      <item>
+        <title>Gestion De Mes Mots De Passe Avec 1password</title>
+        <description>&lt;p&gt;J’utilise depuis un moment sur les bons conseils de Meroje l’application &lt;a href=&quot;https://agilebits.com/onepassword&quot;&gt;1Password&lt;/a&gt;, développé par AgileBits. 1Passsword est un coffre fort pour toutes vos informations sensibles, un plugin intégré dans le navigateur, permet la génération, le replissage et la sauvegarde rapide des mots de passe.  &lt;/p&gt;
+
+&lt;p&gt;Un mot de passe général déverouille ce coffre. Vous pouvez également faire comme moi et utiliser une YubiKey avec un mot de passe à rallonge et complexe. &lt;em&gt;Pensez juste à ne pas laisser cette clé avec votre pc ou smartphone et d’en conserver une copie dans un lieu sûre.&lt;/em&gt; La &lt;a href=&quot;https://www.yubico.com/products/yubikey-hardware/yubikey-2/&quot;&gt;Yubikey&lt;/a&gt; est une sorte de clé USB programmable avec un bouton. Cela fonctionne un peu comme un clavier.&lt;/p&gt;
+
+&lt;p&gt;Ce logiciel n’est pas gratuit (autour de 40€ pour autant d’installation de votre choix). Depuis sa version 5, il est possible de gérer plusieurs utilisateurs synchronisés avec des “niveaux de permissions” pratique dans le cadre d’un partage de mots de passe dans la famille par exemple.  &lt;/p&gt;
+
+&lt;p&gt;L’application génère un fichier chiffré permettant la synchronisation (via FTP, Dropbox,…) entre toutes vos installations et apps mobile afin de toujours avoir vos informations à jour sous la main. Ce fichier embarque tout le nécessaire afin qu’il soit lisible depuis n’importe quel navigateur web sans pour autant avoir l’application installée.&lt;/p&gt;
+
+&lt;p&gt;Une option que j’affectionne particulièrement est &lt;em&gt;l’audit de sécurité&lt;/em&gt;, 1Password vous signalera si vous utilisez trop souvent le même mdp ou si l’un est trop faible ou encore commence à se faire vieux.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;/img/upload/audit_1pass.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Je n’ai aucun intérêt à vous le “vendre”, je souhaitais juste partager avec vous cette amélioration de mon confort de navigation. Merci Meroje !&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 07 Mar 2015 01:23:00 +0000</pubDate>
+        <link>https://www.iooner.me/gestion-de-mes-mots-de-passe-avec-1password/</link>
+        <guid isPermaLink="true">https://www.iooner.me/gestion-de-mes-mots-de-passe-avec-1password/</guid>
+        
+        <category>one password</category>
+        
+        <category>mots de passe</category>
+        
+        <category>1password</category>
+        
+        
+        <category>tip</category>
+        
+      </item>
+    
+      <item>
+        <title>Twitter Cards Jekyll</title>
+        <description>&lt;p&gt;Les &lt;a href=&quot;https://dev.twitter.com/cards/overview&quot;&gt;Twitter Cards&lt;/a&gt; vous permettent d’avoir un meilleur contrôle et statistiques sur le partage de vos liens sur Twitter. Il existe &lt;a href=&quot;https://dev.twitter.com/cards/types&quot;&gt;plusieurs type de cartes&lt;/a&gt; plus adapté à la vidéo, photo, … A vous de faire votre choix.&lt;br /&gt;
+Pour le blog j’ai fais le choix de la “summary card” qui contiendra les infos suivantes :  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mon compte Twitter @iooner,&lt;/li&gt;
+  &lt;li&gt;Le titre de l’article (ou de la page),&lt;/li&gt;
+  &lt;li&gt;L’URL vers l’article/page,&lt;/li&gt;
+  &lt;li&gt;Description de la page ou extrait de l’article,&lt;/li&gt;
+  &lt;li&gt;Mon avatar ou l’illustration de l’article.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;intgration-de-la-carte&quot;&gt;Intégration de la “carte”&lt;/h2&gt;
+&lt;p&gt;A chaque partie j’utilise une condition afin de savoir si oui ou non je suis sur une page. Si non, je suis sur un article. L’exemple principal est l’utilisation de mon avatar en l’absence d’une illustration de page ou d’article.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Précision suite à une question: Les meta sont à placer dans votre head.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:card&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;summary&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:site&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@iooner&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:creator&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;@iooner&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;  
+{% if page.title %}  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:title&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ page.title }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;  
+{% else %}  
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:title&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.title }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;  
+{% endif %}
+{% if page.url %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:url&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.url }}{{ page.url }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+{% endif %}
+{% if page.desc %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:description&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ page.desc }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+{% else %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:description&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Description générique.&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+{% endif %}
+{% if page.img %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:image:src&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.url }}/img/{{ page.img }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+{% else %}
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;twitter:image:src&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.url }}/img/imagepardefaut.png&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+{% endif %}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Si vous voulez en savoir plus sur les tags utilisés (page.desc, …), pour rappel la source du blog est disponible sur &lt;a href=&quot;https://github.com/iooner/iooner.me&quot;&gt;Github&lt;/a&gt; ou n’hésitez pas à poser vos questions en commentaire.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 06 Mar 2015 14:45:00 +0000</pubDate>
+        <link>https://www.iooner.me/twitter-cards-jekyll/</link>
+        <guid isPermaLink="true">https://www.iooner.me/twitter-cards-jekyll/</guid>
+        
+        <category>twitter cards</category>
+        
+        <category>jekyll</category>
+        
+        <category>intégration</category>
+        
+        
+        <category>tutoriel</category>
+        
+        <category>jekyll</category>
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Refonte Totale Du Blog</title>
+        <description>&lt;p&gt;Hellow!  &lt;/p&gt;
+
+&lt;p&gt;Prenez donc un siège, installez-vous !&lt;br /&gt;
+Bienvenue sur cette refonte à 0 du blog. Certains diront ENCORE !? Cela fait 1 an et 3 mois que le Wordpress tournait. N’ayant pas atteint les limites de Wordpress mais ce dernier ayant atteint les miennes, j’ai décidé de m’en séparer.  &lt;/p&gt;
+
+&lt;p&gt;Ce &lt;strong&gt;nouveau blog est réalisé&lt;/strong&gt; graphiquement par mon ami Théo (trouvez le lien de son site dans le footer) et propulsé par Jekyll. Jekyll est une gem ruby vous générant votre site statique à partir de &lt;a href=&quot;http://fr.wikipedia.org/wiki/Markdown&quot;&gt;Markdown&lt;/a&gt; dans mon cas, mais libre à vous de choisir une autre syntaxe pour vos articles. &lt;em&gt;Ce blog est entièrement statique&lt;/em&gt; à part pour les commentaires ou j’ai fais le choix de disqus pour diverses raisons. Si vous souhaitez en savoir plus sur Jekyll rendez-vous sur le &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;site du projet&lt;/a&gt; ou n’hésitez pas à me poser vos questions !&lt;/p&gt;
+
+&lt;p&gt;Vous remarquerez également le passage en SSL d’iooner.me :) &lt;em&gt;Merci à Meroje pour son aide dans ce monde qui m’était plus que flou :).&lt;/em&gt; Tant que nous sommes dans les “nouveautées” tous mes sites, services, tools et cie vont déménager sur iooner.me/xxx (xxx = nom du site, …). Vous pouvez déjà en voir certain dans le header (au moment ou je vous écris uniquement le blog est prêt).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Et pour les anciens articles ?&lt;/strong&gt; Pas de panique l’ancien blog est toujours accecible &lt;a href=&quot;https://iooner.me/old&quot;&gt;ici&lt;/a&gt;. Je suis actuellement en train de “re-rédiger” tous les anciens articles en valant la peine en markdown et en profitant pour les mettres à jour pour certains.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Crédit photo : &lt;a href=&quot;https://www.flickr.com/photos/tsevis/&quot;&gt;Tsevis&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 07 Jan 2015 01:11:47 +0000</pubDate>
+        <link>https://www.iooner.me/refonte-totale-du-blog/</link>
+        <guid isPermaLink="true">https://www.iooner.me/refonte-totale-du-blog/</guid>
+        
+        <category>blog</category>
+        
+        <category>jekyll</category>
+        
+        <category>nouveau</category>
+        
+        
+        <category>blog</category>
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Timecapsule Moins De 100 Euros</title>
+        <description>&lt;p&gt;Hellow!&lt;/p&gt;
+
+&lt;p&gt;Ceux ne souhaitant pas faire partie des pigeons comme moi, mais malgré tout avoir la quiétude d’une &lt;a href=&quot;https://www.apple.com/befr/airport-time-capsule/&quot;&gt;Time Capsule&lt;/a&gt; sans se ruiner voici le guide !&lt;/p&gt;
+
+&lt;p&gt;Le titre original du tutoriel est “Construire une Time Capsule pour 35€…”. Il vous faudra une RaspberryPi B (B+ c’est encore mieux) avec Raspbian ou ArchLinux &amp;amp; un bon disque dur externe.&lt;/p&gt;
+
+&lt;p&gt;Je vous laisse découvrir ce tutoriel &lt;a href=&quot;http://raymii.org/s/articles/Build_a_35_dollar_Time_Capsule_-_Raspberry_Pi_Time_Machine.html&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://iooner.me/old&quot;&gt;Voir l’article original&lt;/a&gt; sur l’ancien blog.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 12 Sep 2014 01:00:00 +0100</pubDate>
+        <link>https://www.iooner.me/timecapsule-moins-de-100-euros/</link>
+        <guid isPermaLink="true">https://www.iooner.me/timecapsule-moins-de-100-euros/</guid>
+        
+        <category>Apple</category>
+        
+        <category>Timecapsule</category>
+        
+        <category>Raspberry Pi</category>
+        
+        
+        <category>tutoriel</category>
+        
+      </item>
+    
+    
+  </channel>
+</rss>

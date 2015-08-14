@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <!-- head.html --> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[i]ooner</title>
+
+    <!-- CSS call -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap-image-gallery.min.css" rel="stylesheet">
+    <link href="/css/blueimp-gallery.min.css" rel="stylesheet">
+    <link href="/css/blueimp-gallery-indicator.css" rel="stylesheet">
+
+
+    <!-- JS call -->
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="/js/bootstrap-image-gallery.min.js"></script>
+
+
+    <!-- flavicon -->
+    <link rel="shortcut icon" href="/img/flavicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/flavicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/flavicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/flavicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/flavicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/flavicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/flavicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/flavicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/flavicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/flavicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/flavicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/flavicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/flavicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/flavicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/flavicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/flavicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/flavicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@iooner">
+    <meta name="twitter:creator" content="@iooner">
+    
+    <meta name="twitter:title" content="[i]ooner">
+    
+    
+    <meta name="twitter:url" content="https://www.iooner.me/index.html">
+    
+    
+    <meta name="twitter:description" content="Blog d'iooner Belge, développeur web. #maker, #hacker, #geek, #urbex.">
+    
+    
+    <meta name="twitter:image:src" content="https://www.iooner.me/img/avatar.png">
+    
+
+
+
+    <link rel="canonical" href="https://www.iooner.me/">
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <link rel="alternate" type="application/rss+xml" title="[i]ooner" href="https://www.iooner.me/feed.xml" />
+
+    
+  </head>
+<!-- fin head.html --> 
+  <body>
+    <!-- header.html --> 
+    <!-- MENUS (RESPONSIVE + FIXED TOP + HEADER) --> 
+
+    <div class="navbar menu_condensed" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href=""><img src="/img/logo.png" class="img-brand" alt="logo"/></a>
+        </div>
+
+        <!-- Menu Mobile / Tablette -->
+        <div class="navbar-collapse collapse no-transition">
+            <ul class="nav navbar-nav navbar-left">
+                <li><input type="text" placeholder="Rechercher...">
+                <hr /></li>
+
+                                <li><a href="/">Accueil</a></li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/categories">Catégories</a></li>
+                    <li><a href="/changelog">ChangeLog</a></li>
+                  </ul>
+                </li> 
+
+                <li><a href="/social">Socialize me</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">A Propos<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/apropos">A Propos</a></li>
+                    <li><a target="_blank" href="http://old.iooner.me/">Ancien Blog</a></li>
+                    <li><a href="/stuff">Stuff</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                  </ul>
+                </li>              
+
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/irc">IRC</a></li>
+                  </ul>
+                </li>
+
+                <li><input class="hidden-xs hidden-md" type="text" placeholder="Rechercher...">
+                <hr /></li>
+            </ul>
+
+            <ul class="other_sites nav navbar-nav navbar-right">
+                <li><a href="http://www.iooner.me/" class="blog">
+                    <i class="fa fa-file-text"></i><span>Blog</span>
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="live">
+                    <i class="fa fa-play"></i><span>Live</span>
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="labs">
+                    <i class="fa fa-flask"></i><span>Lab</span>
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="sharlii">
+                    <i class="fa fa-expand"></i><span>Liens</span> 
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="shop">
+                    <i class="fa fa-shopping-cart"></i><span>Shop</span>
+                </a></li>
+                
+            </ul> 
+        </div>
+      </div>
+    </div>
+    <!-- Menu Scroll-->
+    <div class="navbar menu_scroll navbar-fixed-top hidden-xs hidden-sm" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="/img/logo.png" class="img-brand" alt="logo"/></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                
+                                <li><a href="/">Accueil</a></li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/categories">Catégories</a></li>
+                    <li><a href="/changelog">ChangeLog</a></li>
+                  </ul>
+                </li> 
+
+                <li><a href="/social">Socialize me</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">A Propos<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/apropos">A Propos</a></li>
+                    <li><a target="_blank" href="http://old.iooner.me/">Ancien Blog</a></li>
+                    <li><a href="/stuff">Stuff</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                  </ul>
+                </li>              
+
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/irc">IRC</a></li>
+                  </ul>
+                </li>
+
+                <li><input type="text" placeholder="Rechercher...">
+                <input type="submit" value=""></li>
+            </ul>
+            <ul class="other_sites nav navbar-nav navbar-right">
+
+                <li><a href="http://www.iooner.me/soon" class="live">
+                    <i class="fa fa-play"></i> 
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="labs">
+                    <i class="fa fa-flask"></i>
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="sharlii">
+                    <i class="fa fa-expand"></i> 
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="shop">
+                    <i class="fa fa-shopping-cart"></i> 
+                </a></li>
+
+
+            </ul> 
+        </div>
+      </div>
+    </div>
+    <!-- Menu Classic -->
+    <header class="hidden-xs hidden-sm">
+        <div class="upper">
+            <div class="container">
+                <ul class="col-lg-4 col-md-4 networks">
+                    <li><a href="https://www.facebook.com/lckxbe" class="facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a></li>
+                    <li><a href="https://twitter.com/iooner" class="twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/keyeux" class="linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a></li>
+                    <li><a href="http://instagram.com/iooner" class="instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a></li>
+                </ul>
+
+                <ul class="col-lg-8 col-md-8 nav_sites">
+                    <li><a href="http://www.iooner.me" class="blog">
+                        <i class="fa fa-file-text"></i> Blog
+                    </a></li>
+                    <li><a href="http://www.iooner.me/soon" class="live">
+                        <i class="fa fa-play"></i> Live
+                    </a></li>
+                    <li><a href="http://www.iooner.me/soon" class="labs">
+                        <i class="fa fa-flask"></i> Lab
+                    </a></li>
+                    <li><a href="http://www.iooner.me/soon" class="sharlii">
+                        <i class="fa fa-expand"></i> Liens
+                    </a></li>
+                    <li><a href="http://www.iooner.me/soon" class="shop">
+                        <i class="fa fa-shopping-cart"></i> Shop
+                    </a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="container">
+                <div class="col-lg-4 col-md-4 logo">
+                    <img src="/img/logo.png" class="img-responsive" alt="logo"/>
+                </div>
+                <ul class="col-lg-8 col-md-8 nav_blog">
+ 
+                                    <li><a href="/">Accueil</a></li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/categories">Catégories</a></li>
+                    <li><a href="/changelog">ChangeLog</a></li>
+                  </ul>
+                </li> 
+
+                <li><a href="/social">Socialize me</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">A Propos<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/apropos">A Propos</a></li>
+                    <li><a target="_blank" href="http://old.iooner.me/">Ancien Blog</a></li>
+                    <li><a href="/stuff">Stuff</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                  </ul>
+                </li>              
+
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/irc">IRC</a></li>
+                  </ul>
+                </li>
+
+                    <li><input type="text" placeholder="Rechercher...">
+                    <input type="submit" value=""></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- FIN MENUS (RESPONSIVE + FIXED TOP + HEADER) --> 
+<!-- fin header.html -->  
+	<div id="blog" class="contenu container">
+    	<!-- side.html --> 
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <article class="text-center pt-0 hidden-xs hidden-sm">
+                <img src="/img/avatar.png" class="avatar img-responsive" alt="avatar"/>
+                <h1>Loïc Aka iooner</h1>
+                <hr />
+                <p>Belge, 22 ans, développeur web<br>#maker, #hacker, #geek, #urbex.</p>
+                <a href="/apropos">Lire plus...</a>
+            </article>
+
+           <article class="text-center pt-0 hidden-md hidden-lg">
+                <h1>Loïc Aka iooner</h1>
+                <hr />
+                <p>Belge, 22 ans, développeur web<br>#maker, #hacker, #geek, #urbex.</p>
+                <a href="/apropos">Lire plus...</a>
+            </article>
+
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Mes autres sites</h1>
+                <hr />
+                <ul class="nav">
+                    <li><a target="_blank" href="http://www.bukkit.fr/"><i class="fa fa-external-link-square"></i> Bukkit France</a></li>
+                    <li><a target="_blank" href="http://www.lckx.me/"><i class="fa fa-external-link-square"></i> LcKx (Portfolio)</a></li>
+
+                </ul>
+            </article>     
+
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Les copains</h1>
+                <hr />
+                <ul class="nav">
+                    <li><a target="_blank" href="http://blog.nicolasc.eu/"><i class="fa fa-external-link-square"></i> Nicolas C.</a></li>
+                    <li><a target="_blank" href="http://www.manuel-esteban.com/"><i class="fa fa-external-link-square"></i> Yaug's Corner</a></li>
+                    <li><a target="_blank" href="http://vincpad.me/"><i class="fa fa-external-link-square"></i> Vincpad</a></li>
+                    <li><a target="_blank" href="http://studiotwan.com/"><i class="fa fa-external-link-square"></i> StudioTwan</a></li>
+                    <li><a target="_blank" href="http://www.lokoise.com/"><i class="fa fa-external-link-square"></i> Lokoise</a></li>
+                    <li><a target="_blank" href="http://www.magdiblog.fr/"><i class="fa fa-external-link-square"></i> Magdiblog</a></li>
+                    <li><a target="_blank" href="http://kernelpanik.fr/"><i class="fa fa-external-link-square"></i> KernelPanik</a></li>
+                    <li><a target="_blank" href="http://serveurperso.com/"><i class="fa fa-external-link-square"></i> ServeurPerso</a></li>
+                </ul>
+            </article>        
+ 
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Twitter</h1>
+                <hr />
+                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/iooner" data-widget-id="554577477855870976">Tweets de @iooner</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </article> 
+
+
+
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Je soutiens</h1>
+                <hr />
+                <ul class="nav">
+                    <li><a target="_blank" href="http://www.theairboard.cc/"><i class="fa fa-external-link-square"></i> TheAirBoard</a></li>
+                    <li><a target="_blank" href="http://sparklinlabs.com/"><i class="fa fa-external-link-square"></i> SuperPowers <em>Sparklinlabs</em></a></li>
+                    <li><a target="_blank" href="http://www.mysensors.org/"><i class="fa fa-external-link-square"></i> MySensors</a></li>
+
+                </ul>
+            </article>
+
+            <!--
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Archives</h1>
+                <hr />
+                <ul class="nav">
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Septembre 2014</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Août 2014</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Juillet 2014</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Juin 2014</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Mai 2014</a></li>
+                </ul>
+            </article>
+            -->
+        </div>
+
+<!-- fin side.html --> 
+        	<!-- post index --> 
+<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+  
+    <article class="feed">
+      <div class="title">
+        
+          <h1>
+              
+              <a href="/abri-meteo-diy/">Abri météo DIY</a>
+              
+          </h1>
+          
+
+            
+              <h5>Auteur <strong>iooner</strong> - Catégorie <strong>diy</strong> - 12/08/2015</h5>
+            
+          
+      </div>
+      
+      <div class="img_full">
+        <img class="img-full" src="/img/upload/abri_meteo.jpg" alt="Abri météo DIY" />
+      </div>
+      
+      <div class="text">
+       
+          <p>Un abri météo en plastique “pro” coûte rapidement plus d’une centaine d’euros. Ayant déjà un abri pro monté sur ma Davis Vantage Pro 2 (station météo). J’ai besoin d’en abri de la pluie et des radiations solaires, mais tout en laissant bien circuler l’air. Afin d’y installer quelques capteurs de qualité d’air et d’impact de foudre.
+<br /></p>
+
+<h2 id="liste-des-courses">Liste des courses</h2>
+<ul>
+  <li>10 coupelles 24cm (0,85€/p),</li>
+  <li>36 écrous large 8mm (0,20€/p),</li>
+  <li>2 Bombes de peinture blanche (5,45€/p),</li>
+  <li>2m de tige filetée 8mm inox (3,80€/p),</li>
+  <li>Quelques écrous pour finaliser l’abri.</li>
+</ul>
+
+<h2 id="construction">Construction</h2>
+<p>Les tiges filetés sont coupées à 35cm, la taille est parfaite pour prévoir une fixation pour la suite.<br />
+Percer les 8 coupelles d’un coup afin d’avoir une entrée pour la scie sauteuse et obtenir notre “trou” central. A cette étape, les coupelles sont pre-peintes.</p>
+
+<div class="row">
+   <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/abrimeteo/meteo1.jpg" title="" class="thumbnail" data-gallery="">
+      <img src="/img/upload/abrimeteo/meteo1.jpg" alt="" />
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/abrimeteo/meteo2.jpg" title="" class="thumbnail" data-gallery="">
+      <img src="/img/upload/abrimeteo/meteo2.jpg" alt="" />
+    </a>
+  </div>
+     <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/abrimeteo/meteo3.jpg" title="" class="thumbnail" data-gallery="">
+      <img src="/img/upload/abrimeteo/meteo3.jpg" alt="" />
+    </a>
+  </div>
+     <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/abrimeteo/meteo4.jpg" title="" class="thumbnail" data-gallery="">
+      <img src="/img/upload/abrimeteo/meteo4.jpg" alt="" />
+    </a>
+  </div>
+</div>
+
+<p><strong>Bonus</strong> Je découpe à la scie sauteuse 2 disques dans de l’alu 3mm afin d’avoir une rigidité maximale. Sans le montage est un peu trop fragile à mon goût forçant sur le plastique des coupelles.<br />
+<br />
+Viser les écrous de fin et enfiler la plaque d’alu et la première coupelle. Cette première coupelle est une coupelle pleine ! Enfiler les premiers écrous larges et la seconde coupelle (percée).<br />
+Continuer ainsi de suite. Une coupelle, écrous, coupelle, écrous.</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/abrimeteo/meteo5.jpg" title="" class="thumbnail" data-gallery="">
+      <img src="/img/upload/abrimeteo/meteo5.jpg" alt="" />
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/abrimeteo/meteo6.jpg" title="" class="thumbnail" data-gallery="">
+      <img src="/img/upload/abrimeteo/meteo6.jpg" alt="" />
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/abrimeteo/meteo7.jpg" title="" class="thumbnail" data-gallery="">
+      <img src="/img/upload/abrimeteo/meteo7.jpg" alt="" />
+    </a>
+  </div>
+</div>
+
+<p>La dernière coupelle du dessus est une coupelle pleine et pour terminer la deuxième plaque d’alu.<br />
+Un dernier coup de peinture et le tour est joué !</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/abrimeteo/meteo8.jpg" title="" class="thumbnail" data-gallery="">
+      <img src="/img/upload/abrimeteo/meteo8.jpg" alt="" />
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/abrimeteo/meteo9.jpg" title="" class="thumbnail" data-gallery="">
+      <img src="/img/upload/abrimeteo/meteo9.jpg" alt="" />
+    </a>
+  </div>
+</div>
+
+<p><strong>Petit tip</strong> si vous en avez marre de visser vos écrous sur les tiges filetées comme des geux.<br />
+Un morceau de chambre à air et le tour est joué !</p>
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/4T5r8cpJxx0" frameborder="0" allowfullscreen=""></iframe></div>
+
+
+          <a class="btn1 read" href="/abri-meteo-diy/#commentaires"> Commentaires </a>
+       
+      <div class="separator"></div>
+       
+          <div class="share">
+            
+              <h3>Partager :</h3>
+                <div class="sharebtn">
+                  <a class="btn-share facebook" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://www.facebook.com/sharer/sharer.php?u=https://www.iooner.me/abri-meteo-diy/" rel="nofollow"><i class="fa fa-facebook"></i> Facebook</a>
+
+                  <a class="btn-share twitter" target="_blank" title="Cliquez pour partager sur Tweeter" href="http://twitter.com/home?status=Abri météo DIY https://www.iooner.me/abri-meteo-diy/ via @iooner" rel="nofollow"><i class="fa fa-twitter"></i> Twitter</a>
+
+                  <a class="btn-share google" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://plus.google.com/share?url=https://www.iooner.me/abri-meteo-diy/" rel="nofollow"><i class="fa fa-google-plus"></i> Google+</a>
+
+                  <!--<a class="btn-share flattr" href="https://flattr.com/submit/auto?user_id=iooner&url=http%3A%2F%2Fiooner.me/abri-meteo-diy/" target="_blank"><i class="fa fa-money"></i> Flattr</a>-->
+                </div>
+              
+             
+              <!--<h3>Tags :</h3>
+              <span>
+                
+                  <a href="/tag/Abri">Abri,</a>
+                
+                  <a href="/tag/Météo">Météo,</a>
+                
+                  <a href="/tag/DIY">DIY,</a>
+                
+              </span>-->
+              <h3>Tags :</h3>
+              <span>
+                
+                  
+                    Abri,
+                  
+                
+                  
+                    Météo,
+                  
+                
+                  
+                    DIY
+                  
+                
+              </span>
+          </div>
+          
+          
+      </div>
+   </article>
+  
+    <article class="feed">
+      <div class="title">
+        
+          <h1>
+              
+              <a href="/youtube-bricole-yourself/">Youtube - Bricole yourself</a>
+              
+          </h1>
+          
+
+            
+              <h5>Auteur <strong>iooner</strong> - Catégorie <strong>en passant</strong> - 01/08/2015</h5>
+            
+          
+      </div>
+      
+      <div class="img_full">
+        <img class="img-full" src="/img/upload/bricolurself.jpg" alt="Youtube - Bricole yourself" />
+      </div>
+      
+      <div class="text">
+       
+          <p>Hellow!<br />
+Grâce à <a href="https://twitter.com/VChabrette/status/627535604335648768">@vchabrette</a> et à notre échange sur Twitter, j’ai fait le constat que non, tout le monde ne connait pas encore Jimmy DiResta et cie! Je vous propose de faire un petit tour des bricoleurs, youtubeurs badass avec des bou… des outils en acier inoxidable que j’apprécie particulièrement.
+<br /><br />
+Pardonnez-moi, mais toutes les chaînes sont anglophones. Si vous avez des francophones du même millésime faites-le moi savoir dans les commentaires !
+<br /><br />
+On commence par <strong><a href="https://www.youtube.com/channel/UCiEk4xHBbz0hZNIBBpowdYQ">Jimmy DiResta</a></strong>, c’est juste le monsieur. L’as des as du ciseau à bois, du poste à souder. Vous voulez un bar ? Une enseigne ? Où n’importe quoi ? C’est à lui qu’il faut s’adresser.  </p>
+
+<p>Vous pouvez le retrouver sur <a href="https://www.youtube.com/channel/UCiEk4xHBbz0hZNIBBpowdYQ">sa chaîne</a>.<br />
+Mais aussi sur la chaîne du <a href="https://www.youtube.com/channel/UChtY6O8Ahw2cz05PS2GhUbg">Make Magazine</a> <em>(que je vous recommande aussi, ainsi que le magazine)</em>.  </p>
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/vd_zP38OToY" frameborder="0" allowfullscreen=""></iframe></div>
+<p><br /><br />
+Dans le genre qui roule sur les essieux voici le champion du monde, il buzz pas mal en ce moment grâce à son lit éjectable. <strong><a href="https://www.youtube.com/channel/UCp68_FLety0O-n9QU6phsgw">Colin Furze</a></strong> !  </p>
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/EVzn1pl4nlo" frameborder="0" allowfullscreen=""></iframe></div>
+<p><br /><br /></p>
+
+<div class="row">
+   <div class="col-xs-6 col-md-6">
+    <a href="/img/upload/drunk.png" title="Drunkenwood" class="thumbnail" data-gallery="">
+      <img src="/img/upload/drunk.png" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-6">
+    <a href="/img/upload/mtm.png" title="MTMwood" class="thumbnail" data-gallery="">
+      <img src="/img/upload/mtm.png" alt="" />  
+    </a>
+
+  </div>
+</div>
+
+<p>Vous aimez le bois ? Alors <strong>voici deux chaînes</strong> !<br />
+<a href="https://www.youtube.com/channel/UCtaykeSsGhtn2o2BsPm-rsw">Drunkenwood</a> le Mozart du bois, <a href="https://www.youtube.com/channel/UCWBTyvNhUXq0ofu6ta1EAaQ">MTMwood</a> et son superbe logo <a href="https://www.youtube.com/watch?t=54&amp;v=rUeaAOIMQ_M">Youtube (évidemment en bois)</a>.</p>
+
+<p><br /><br /></p>
+
+<p>Je termine par une chaîne qui sort un peu du canevas, <a href="https://www.youtube.com/channel/UCiDJtJKMICpb9B1qf7qjEOA">Tested</a>, mais Adam Savage <em>(ouep le mec de MythBusters)</em> y publie pas mal de vidéos où il bricole dans son atelier. <em>Atelier que vous pouvez visiter sur GoogleMaps si vous arrivez à en trouver l’entrée !</em></p>
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/l9AqYaSRjw0" frameborder="0" allowfullscreen=""></iframe></div>
+<p><br /><br /></p>
+
+          <a class="btn1 read" href="/youtube-bricole-yourself/#commentaires"> Commentaires </a>
+       
+      <div class="separator"></div>
+       
+          <div class="share">
+            
+              <h3>Partager :</h3>
+                <div class="sharebtn">
+                  <a class="btn-share facebook" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://www.facebook.com/sharer/sharer.php?u=https://www.iooner.me/youtube-bricole-yourself/" rel="nofollow"><i class="fa fa-facebook"></i> Facebook</a>
+
+                  <a class="btn-share twitter" target="_blank" title="Cliquez pour partager sur Tweeter" href="http://twitter.com/home?status=Youtube - Bricole yourself https://www.iooner.me/youtube-bricole-yourself/ via @iooner" rel="nofollow"><i class="fa fa-twitter"></i> Twitter</a>
+
+                  <a class="btn-share google" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://plus.google.com/share?url=https://www.iooner.me/youtube-bricole-yourself/" rel="nofollow"><i class="fa fa-google-plus"></i> Google+</a>
+
+                  <!--<a class="btn-share flattr" href="https://flattr.com/submit/auto?user_id=iooner&url=http%3A%2F%2Fiooner.me/youtube-bricole-yourself/" target="_blank"><i class="fa fa-money"></i> Flattr</a>-->
+                </div>
+              
+             
+              <!--<h3>Tags :</h3>
+              <span>
+                
+                  <a href="/tag/youtube">youtube,</a>
+                
+                  <a href="/tag/DiResta">DiResta,</a>
+                
+                  <a href="/tag/Bricolage">Bricolage,</a>
+                
+                  <a href="/tag/Drunkenwood">Drunkenwood,</a>
+                
+                  <a href="/tag/MTMwood">MTMwood,</a>
+                
+              </span>-->
+              <h3>Tags :</h3>
+              <span>
+                
+                  
+                    youtube,
+                  
+                
+                  
+                    DiResta,
+                  
+                
+                  
+                    Bricolage,
+                  
+                
+                  
+                    Drunkenwood,
+                  
+                
+                  
+                    MTMwood
+                  
+                
+              </span>
+          </div>
+          
+          
+      </div>
+   </article>
+  
+    <article class="feed">
+      <div class="title">
+        
+          <h1>
+              
+              <a href="/nouveau-nas-synology-ds414j/">Nouveau NAS Synology DS414j</a>
+              
+          </h1>
+          
+
+            
+              <h5>Auteur <strong>iooner</strong> - Catégorie <strong>unboxing</strong> - 30/07/2015</h5>
+            
+          
+      </div>
+      
+      <div class="img_full">
+        <img class="img-full" src="/img/upload/newnas.jpg" alt="Nouveau NAS Synology DS414j" />
+      </div>
+      
+      <div class="text">
+       
+          <h2 id="encore-un-nas-">Encore un NAS ?</h2>
+<p>Effectivement j’ai déjà un Synology DS713+ 2 baies qui me sert pour faire tourner quelques app, stocker quelques backups et une copie de la Timemachine.
+<br /><br />
+Mais je commence à être un peu à l’étroit surtout avec mes photos. Je photographie en RAW, il est courant d’avoir des photos de 30Mo. Il me fallait une solution relativement lowcost et fiable. Par habitude et satisfaction j’ai choisi de rester chez Synology.</p>
+
+<div class="row">
+   <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/newnas/syno1.jpg" title="The box!" class="thumbnail" data-gallery="">
+      <img src="/img/upload/newnas/syno1.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/newnas/syno2.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/newnas/syno2.jpg" alt="" />  
+    </a>
+  </div>
+     <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/newnas/syno3.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/newnas/syno3.jpg" alt="" />  
+    </a>
+  </div>
+     <div class="col-xs-6 col-md-3">
+    <a href="/img/upload/newnas/syno4.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/newnas/syno4.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>J’ai fais le choix de 4 disques de 3To de la marque et série Seagate Surveillance HDD. Selon le constructeur, ils sont prévus à la base pour du NVR (enregistreur vidéo IP) donc résistant à l’écriture intensive. Etant donné que je vais également y stocker des copies de vidéosurveillance, je pense que cela s’y prête plutôt bien.</p>
+
+<p>Le tout, en un volume “Synology SHR” qui me laisse un peu moins de 9To de stockage avec une tolérance de panne d’un disque. Niveau lecture il se défend plutôt bien. Niveau écriture c’est pas mal non plus, quoi qu’un peu plus lent. <em>(Je ferai un retour sur ce point dès que je l’aurais un peu plus utilisé avec l’enregistrement des caméras actif).</em>
+<br /><br />
+En conclusion, aux alentours de 300€ pour le NAS et 100€ par disque cela reste une solution abordable pour ce que je recherchais. Seul gros regret, l’absence d’un double LAN et de hotswap des disques comme sur le 713+. Mais bon à ce prix, on ne va pas trop se plaindre :).</p>
+
+          <a class="btn1 read" href="/nouveau-nas-synology-ds414j/#commentaires"> Commentaires </a>
+       
+      <div class="separator"></div>
+       
+          <div class="share">
+            
+              <h3>Partager :</h3>
+                <div class="sharebtn">
+                  <a class="btn-share facebook" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://www.facebook.com/sharer/sharer.php?u=https://www.iooner.me/nouveau-nas-synology-ds414j/" rel="nofollow"><i class="fa fa-facebook"></i> Facebook</a>
+
+                  <a class="btn-share twitter" target="_blank" title="Cliquez pour partager sur Tweeter" href="http://twitter.com/home?status=Nouveau NAS Synology DS414j https://www.iooner.me/nouveau-nas-synology-ds414j/ via @iooner" rel="nofollow"><i class="fa fa-twitter"></i> Twitter</a>
+
+                  <a class="btn-share google" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://plus.google.com/share?url=https://www.iooner.me/nouveau-nas-synology-ds414j/" rel="nofollow"><i class="fa fa-google-plus"></i> Google+</a>
+
+                  <!--<a class="btn-share flattr" href="https://flattr.com/submit/auto?user_id=iooner&url=http%3A%2F%2Fiooner.me/nouveau-nas-synology-ds414j/" target="_blank"><i class="fa fa-money"></i> Flattr</a>-->
+                </div>
+              
+             
+              <!--<h3>Tags :</h3>
+              <span>
+                
+                  <a href="/tag/Synology">Synology,</a>
+                
+                  <a href="/tag/NAS">NAS,</a>
+                
+                  <a href="/tag/DS414j">DS414j,</a>
+                
+                  <a href="/tag/unboxing">unboxing,</a>
+                
+              </span>-->
+              <h3>Tags :</h3>
+              <span>
+                
+                  
+                    Synology,
+                  
+                
+                  
+                    NAS,
+                  
+                
+                  
+                    DS414j,
+                  
+                
+                  
+                    unboxing
+                  
+                
+              </span>
+          </div>
+          
+          
+      </div>
+   </article>
+  
+    <article class="feed">
+      <div class="title">
+        
+          <h1>
+              
+              <a href="/plaque-de-chladni-a-base-de-recup/">Plaque de Chladni à base de récup'</a>
+              
+          </h1>
+          
+
+            
+              <h5>Auteur <strong>iooner</strong> - Catégorie <strong>diy</strong> - 29/07/2015</h5>
+            
+          
+      </div>
+      
+      <div class="img_full">
+        <img class="img-full" src="/img/upload/chladni.jpg" alt="Plaque de Chladni à base de récup'" />
+      </div>
+      
+      <div class="text">
+       
+          <h2 id="chladni-kzako">Chladni kézako?!</h2>
+<p>Ernst Chladni est le fondateur de l’acoustique moderne. Il étudiait expérimentalement les vibrations des plaques, en les saupoudrant de sable fin, obtenant ainsi des figures acoustiques. <em>Wikipédia</em>  </p>
+
+<p><strong>Si vous souhaitez en savoir plus sur les figures de Chladni :</strong></p>
+
+<ul>
+  <li>En français chez ExpérimentBoy : <a href="https://www.youtube.com/watch?v=VSxRJPTxO9U">https://www.youtube.com/watch?v=VSxRJPTxO9U</a>  </li>
+  <li>En anglais chez PhysicsGirl : <a href="https://www.youtube.com/watch?v=wYoxOJDrZzw">https://www.youtube.com/watch?v=wYoxOJDrZzw</a></li>
+</ul>
+
+<h2 id="cest-parti-">C’est parti !</h2>
+<p>L’idée est donc de réaliser une “plaque de Chladni” pour pas un rond ou presque. J’ai eu l’envie de m’y coller en triant les photos de la MakerFaire 2015 voyant une photo d’un gars ayant réalisé un montage semblable à celui que je vais vous décrire.<br />
+Durant mes recherches je suis tombé sur ce “<a href="http://www.instructables.com/id/Mechanical-Wave-Driver-for-Chladni-Plate/">instructable</a>” qui va être notre base de travail.  </p>
+
+<p><strong>Il vous faudra :</strong>  </p>
+
+<ul>
+  <li>Une pièce de bois,</li>
+  <li>De la tige filetée de 5,</li>
+  <li>Ecrous de 5,</li>
+  <li>Une plaque d’alu plutôt fine,</li>
+  <li>Un vieux haut-parleur,</li>
+  <li>Un bouchon de bouteille (Coca-Cola dans mon cas),</li>
+  <li>Un pistolet à colle,</li>
+  <li>De quoi souder et un peu de câble audio.</li>
+</ul>
+
+<p>Ce qui est bien, c’est que j’avais tout sous la main !</p>
+
+<h2 id="sortez-les-outils-">Sortez les outils !</h2>
+
+<p>Je découpe un vieux diffuseur et je récupère le haut-parleur qui s’y trouve.</p>
+
+<div class="row">
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step1.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step1.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step2.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step2.jpg" alt="" />  
+    </a>
+  </div>
+     <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step3.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step3.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Un coup de fer à souder, on enlève les vieux fils pour remplacer par de nouveau qui n’est pas rongé.<br />
+Une photo sympa avec de la sciure de bois qui traînait avant de commencer les choses sérieuses.</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step4.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step4.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step5.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step5.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step6.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step6.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Au cutter, retirer la membrane en papier du haut-parleur, attention à ne pas percer celle en dessous.</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step7.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step7.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step8.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step8.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Percer à la mèche de 5 le bouchon de bouteille bien au centre. Passer la tige filetée et deux écrous. Il suffit de serrer le tout et le tour est joué !</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step9.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step9.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step10.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step10.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Préparation d’un support sympa avec un morceau de bois dans lequel sont enfoncés des morceaux de tige filetée. Effiler le haut-parleur et le fixer. Un coup de pistolet à colle et notre tige centrale est fixée !</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step11.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step11.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step12.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step12.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step13.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step13.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Un petit morceau de plexy qui traînait recoupé aux bonnes mesures est un petit ajout des plus sympathique ! Il est fixé à son tour.<br />
+Un écrou sur la tige centrale, notre plaque d’alu (19cm x 19cm ici) et un autre écrou. Bien serrer le tout ! Les vibrations ont du talent à revendre dans le désserrage.</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step14.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step14.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step15.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step15.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step16.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step16.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<h2 id="rsultat">Résultat</h2>
+<p><strong>Une petite démonstration vaut mieux que dix mille mots !</strong>  </p>
+
+<p>Le haut-parleur est connecté à un ampli et à son tour sur mon smartphone avec l’application PA Tone qui fait plutôt bien le boulot.  </p>
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/_hFfYj4ivKk" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p><br /><br /></p>
+
+<p>Les résultats ne sont pas exceptionnels, mais cela permet déjà de jouer avec les figures de Chladni à vraiment pas cher. :) Je pense qu’une place d’alu un peu plus grande et plus fine donnerait de meilleurs résultats. Un vibreur ne doit pas être très cher, mais c’est tellement plus fun de jouer avec ce que l’on a sous la main dans son atelier :)<br />
+<br /><br />
+Avant de se quitter une autre vidéo juste pour le fun. <em>(Désolé pour le choix de la musique)</em>.  </p>
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/75W25aHGHys" frameborder="0" allowfullscreen=""></iframe></div>
+
+          <a class="btn1 read" href="/plaque-de-chladni-a-base-de-recup/#commentaires"> Commentaires </a>
+       
+      <div class="separator"></div>
+       
+          <div class="share">
+            
+              <h3>Partager :</h3>
+                <div class="sharebtn">
+                  <a class="btn-share facebook" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://www.facebook.com/sharer/sharer.php?u=https://www.iooner.me/plaque-de-chladni-a-base-de-recup/" rel="nofollow"><i class="fa fa-facebook"></i> Facebook</a>
+
+                  <a class="btn-share twitter" target="_blank" title="Cliquez pour partager sur Tweeter" href="http://twitter.com/home?status=Plaque de Chladni à base de récup' https://www.iooner.me/plaque-de-chladni-a-base-de-recup/ via @iooner" rel="nofollow"><i class="fa fa-twitter"></i> Twitter</a>
+
+                  <a class="btn-share google" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://plus.google.com/share?url=https://www.iooner.me/plaque-de-chladni-a-base-de-recup/" rel="nofollow"><i class="fa fa-google-plus"></i> Google+</a>
+
+                  <!--<a class="btn-share flattr" href="https://flattr.com/submit/auto?user_id=iooner&url=http%3A%2F%2Fiooner.me/plaque-de-chladni-a-base-de-recup/" target="_blank"><i class="fa fa-money"></i> Flattr</a>-->
+                </div>
+              
+             
+              <!--<h3>Tags :</h3>
+              <span>
+                
+                  <a href="/tag/Chladni">Chladni,</a>
+                
+                  <a href="/tag/plaque">plaque,</a>
+                
+                  <a href="/tag/DIY">DIY,</a>
+                
+                  <a href="/tag/figures">figures,</a>
+                
+              </span>-->
+              <h3>Tags :</h3>
+              <span>
+                
+                  
+                    Chladni,
+                  
+                
+                  
+                    plaque,
+                  
+                
+                  
+                    DIY,
+                  
+                
+                  
+                    figures
+                  
+                
+              </span>
+          </div>
+          
+          
+      </div>
+   </article>
+  
+    <article class="feed">
+      <div class="title">
+        
+          <h1>
+              
+              <a href="/reflexion-domotique-mysensors/">Réflexion Domotique & MySensors</a>
+              
+          </h1>
+          
+
+            
+              <h5>Auteur <strong>iooner</strong> - Catégorie <strong>domotique</strong> - 08/04/2015</h5>
+            
+          
+      </div>
+      
+      <div class="img_full">
+        <img class="img-full" src="/img/upload/domotique.jpg" alt="Réflexion Domotique & MySensors" />
+      </div>
+      
+      <div class="text">
+       
+          <p>Dans cette première approche à la domotique mon bureau servira de “maquette” à la maison entière pour certaines parties. Ceux suivant le blog vont très certainement remarquer que plusieurs projets que je cite ci-dessous sont déjà en place chez moi. Le souci, ils sont chacun dans leur coin à parler “leur langue”. Il est temps de standardiser et centraliser sur Jeedom.</p>
+
+<h2 id="liste-des-premiers-besoins">Liste des premiers besoins</h2>
+<ul>
+  <li>Compteur électrique,</li>
+  <li>Compteur d’eau,</li>
+  <li>Niveau de sel (adoucisseur d’eau),</li>
+  <li>Passage du facteur,</li>
+  <li>Contrôle et état de la porte du garage,</li>
+  <li>Intégration de la station météo (Davis Vantage Pro 2).</li>
+</ul>
+
+<p><strong>Dans le bureau</strong>  </p>
+
+<ul>
+  <li>Gestion du chauffage,</li>
+  <li>Gestion de la climatisation,</li>
+  <li>Détection de présence,</li>
+  <li>Détection de fumées (incendie),</li>
+  <li>Gestion et monitoring de certaines prises électriques,</li>
+  <li>Vidéosurveillance.</li>
+</ul>
+
+<h2 id="les-solutions-maisons">Les “solutions maisons”</h2>
+<p>J’ai arrêté mon choix sur Jeedom dans le choix de la “box domotique”. Il sera installé sur un petit serveur atom pour le master et utilisera une Raspberry Pi en esclave placé au centre de la maison.<br />
+Le pi sera équipé d’un RFXCOM 433Mhz et du Razberry (contrôleur zwave).  </p>
+
+<p>Pour le compteur électrique, le compteur d’eau, le niveau de sel, le passage du facteur,… Cette partie sera totalement DIY sur base du projet <a href="http://www.mysensors.org/">MySensors</a>  </p>
+
+<ul>
+  <li><strong>Compteur électrique</strong> : capteur effet de hall,</li>
+  <li><strong>Compteur d’eau</strong> : barrière infrarouge (samples gratuis Vishay),</li>
+  <li><strong>Niveau de sel</strong> : capteur HC-SR04 (calcul du niveau par rapport au couvercle),</li>
+  <li><strong>Passage du facteur</strong> : capteur de luminosité (ouveture du clapet) et barrière infrarouge. 2 facteurs afin d’éviter les faux positifs,</li>
+  <li>Etat <strong>porte du garage</strong> : 2 capteurs de porte magnétique (3 états possible : Ouvert, Fermé ou entre deux.),</li>
+  <li><strong>Climatisation</strong> du bureau : émulation les codes ir envoyé par la télécommande. Avec un retour d’état de la led de fonctionnement (capteur luminosité) et d’une sonde de température à la sortie du climatiseur.  </li>
+</ul>
+
+<p>Au passage, chaque point MySensors embarquera un DHT22 (sonde temp/hum) afin d’avoir un retour des températures, dans toute la maison.</p>
+
+<h2 id="les-solutions-classiques">Les “solutions classiques”</h2>
+
+<p>De simples modules 433Mhz que je possède déjà ou du Zwave.  </p>
+
+<ul>
+  <li>Gestion du <strong>chauffage</strong> : Vanne domotique (zwave) Danfoss,</li>
+  <li>Détection de <strong>présence</strong> : Fibaro Eye Zwave,</li>
+  <li>Détection <strong>fummées/incendie</strong> : Fibaro FGSS-001 Zwave,</li>
+  <li><strong>Prises électriques</strong> : Recyclage des chacon DI-O (433Mhz sans retour d’état) pour les points les moins critiques, pour les autres utilisation de Fibaro WallPlug (Zwave avec retour d’état et consomation).</li>
+</ul>
+
+<h2 id="pour-la-vidosurveillance-et-la-station-mto-">Pour la vidéosurveillance et la station météo ?</h2>
+<p>Pour la <strong>vidéosurveillance</strong>, les constructeurs allant tous de leur petite interface et solution mobile et cie, je vais faire simple. Tous les flux RTSP (relativement standard dans ce milieu) remonteront à mon ZoneMinder et ensuite dans Jeedom.  Jeedom affichera dans un joli dashboard alors que ZoneMinder s’occupera de toute la partie détection, zones, …  </p>
+
+<p>La <strong>station météo</strong> est en cours de déménagement <em>(article à venir)</em>, elle vient de se trouver un jardin à proximité de chez-moi. Ce qui me permettra d’avoir des mesures optimales. La station remonte sur le web via une RaspberryPi embarquant MétéoHub un fichier RAW. Il suffira de développer un petit plugin à Jeedom afin de lire ce fichier RAW sur le web ou au travers du VPN me liant à ma station.</p>
+
+
+          <a class="btn1 read" href="/reflexion-domotique-mysensors/#commentaires"> Commentaires </a>
+       
+      <div class="separator"></div>
+       
+          <div class="share">
+            
+              <h3>Partager :</h3>
+                <div class="sharebtn">
+                  <a class="btn-share facebook" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://www.facebook.com/sharer/sharer.php?u=https://www.iooner.me/reflexion-domotique-mysensors/" rel="nofollow"><i class="fa fa-facebook"></i> Facebook</a>
+
+                  <a class="btn-share twitter" target="_blank" title="Cliquez pour partager sur Tweeter" href="http://twitter.com/home?status=Réflexion Domotique & MySensors https://www.iooner.me/reflexion-domotique-mysensors/ via @iooner" rel="nofollow"><i class="fa fa-twitter"></i> Twitter</a>
+
+                  <a class="btn-share google" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://plus.google.com/share?url=https://www.iooner.me/reflexion-domotique-mysensors/" rel="nofollow"><i class="fa fa-google-plus"></i> Google+</a>
+
+                  <!--<a class="btn-share flattr" href="https://flattr.com/submit/auto?user_id=iooner&url=http%3A%2F%2Fiooner.me/reflexion-domotique-mysensors/" target="_blank"><i class="fa fa-money"></i> Flattr</a>-->
+                </div>
+              
+             
+              <!--<h3>Tags :</h3>
+              <span>
+                
+                  <a href="/tag/mysensors">mysensors,</a>
+                
+                  <a href="/tag/zwave">zwave,</a>
+                
+                  <a href="/tag/Jeedom">Jeedom,</a>
+                
+                  <a href="/tag/domotique">domotique,</a>
+                
+              </span>-->
+              <h3>Tags :</h3>
+              <span>
+                
+                  
+                    mysensors,
+                  
+                
+                  
+                    zwave,
+                  
+                
+                  
+                    Jeedom,
+                  
+                
+                  
+                    domotique
+                  
+                
+              </span>
+          </div>
+          
+          
+      </div>
+   </article>
+  
+  
+<article class="feed pages text-center">
+  <ul class="pagination">
+
+
+
+   
+  <li><a>1/3</a></li>
+  
+    <li><a href="/blog/2"><i class="fa fa-chevron-right"></i></a></li>
+  
+
+  </ul> 
+ 
+</article>
+
+
+
+
+
+
+  </div>
+<!-- fin post index --> 
+
+	</div>
+    <!-- footer.html -->  
+    <footer>
+        <div class="container">
+            <p>Moulé à la louche with ♥ in Principauté de Liège par <a href="http://www.lckx.me/">LcKx</a> avec Jekyll - Design par <a href="http://theokleman.com/">Théo Kleman</a> - <a href="https://www.iooner.me/changelog">ChangeLog</a> - Flux RSS : <a href="https://www.iooner.me/feed.xml">XML</a> - <a href="https://www.iooner.me/posts.json">JSON</a></p>
+
+            <p class="hidden-md hidden-lg">
+                <strong>Le copains : <a target="_blank" href="http://www.manuel-esteban.com/">Yaug's Corner</a>
+                 - <a target="_blank" href="http://vincpad.me/">Vincpad</a>
+                 - <a target="_blank" href="http://studiotwan.com/">StudioTwan</a>
+                 - <a target="_blank" href="http://www.lokoise.com/">Lokoise</a>
+                 - <a target="_blank" href="http://www.magdiblog.fr/">Magdiblog</a>
+                 - <a target="_blank" href="http://ioe.kubeek.com/">Michoo42</a>
+                 - <a target="_blank" href="http://kernelpanik.fr/">KernelPanik</a>
+                 - <a target="_blank" href="http://oxhak.fr/">Oxhak</a>
+            </p>
+             
+        </div>
+    </footer>
+<!-- fin footer.html --> 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45067060-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+            <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+        <div id="blueimp-gallery" class="blueimp-gallery">
+            <!-- The container for the modal slides -->
+            <div class="slides"></div>
+            <!-- Controls for the borderless lightbox -->
+            <h3 class="title"></h3>
+            <ol class="indicator"></ol>
+            <!-- The modal dialog, which will be used to wrap the lightbox content -->
+            <div class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title"></h4>
+                        </div>
+                        <div class="modal-body next"></div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default pull-left prev">
+                                <i class="glyphicon glyphicon-chevron-left"></i>
+                                Précédent
+                            </button>
+                            <button type="button" class="btn btn-primary next">
+                                Suivant
+                                <i class="glyphicon glyphicon-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <!-- head.html --> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[i]ooner - Plaque De Chladni A Base De Recup</title>
+
+    <!-- CSS call -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap-image-gallery.min.css" rel="stylesheet">
+    <link href="/css/blueimp-gallery.min.css" rel="stylesheet">
+    <link href="/css/blueimp-gallery-indicator.css" rel="stylesheet">
+
+
+    <!-- JS call -->
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="/js/bootstrap-image-gallery.min.js"></script>
+
+
+    <!-- flavicon -->
+    <link rel="shortcut icon" href="/img/flavicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/flavicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/flavicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/flavicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/flavicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/flavicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/flavicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/flavicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/flavicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/flavicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/flavicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/flavicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/flavicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/flavicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/flavicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/flavicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/flavicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@iooner">
+    <meta name="twitter:creator" content="@iooner">
+    
+    <meta name="twitter:title" content="Plaque de Chladni à base de récup'">
+    
+    
+    <meta name="twitter:url" content="https://www.iooner.me/plaque-de-chladni-a-base-de-recup/">
+    
+    
+    <meta name="twitter:description" content="Construction d'une plaque de Chladni avec des matériaux de récupération.">
+    
+    
+    <meta name="twitter:image:src" content="https://www.iooner.me/img/upload/chladni.jpg">
+    
+
+
+
+    <link rel="canonical" href="https://www.iooner.me/plaque-de-chladni-a-base-de-recup/">
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <link rel="alternate" type="application/rss+xml" title="[i]ooner" href="https://www.iooner.me/feed.xml" />
+
+    
+  </head>
+<!-- fin head.html --> 
+  <body>
+    <!-- header.html --> 
+    <!-- MENUS (RESPONSIVE + FIXED TOP + HEADER) --> 
+
+    <div class="navbar menu_condensed" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" href=""><img src="/img/logo.png" class="img-brand" alt="logo"/></a>
+        </div>
+
+        <!-- Menu Mobile / Tablette -->
+        <div class="navbar-collapse collapse no-transition">
+            <ul class="nav navbar-nav navbar-left">
+                <li><input type="text" placeholder="Rechercher...">
+                <hr /></li>
+
+                                <li><a href="/">Accueil</a></li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/categories">Catégories</a></li>
+                    <li><a href="/changelog">ChangeLog</a></li>
+                  </ul>
+                </li> 
+
+                <li><a href="/social">Socialize me</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">A Propos<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/apropos">A Propos</a></li>
+                    <li><a target="_blank" href="http://old.iooner.me/">Ancien Blog</a></li>
+                    <li><a href="/stuff">Stuff</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                  </ul>
+                </li>              
+
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/irc">IRC</a></li>
+                  </ul>
+                </li>
+
+                <li><input class="hidden-xs hidden-md" type="text" placeholder="Rechercher...">
+                <hr /></li>
+            </ul>
+
+            <ul class="other_sites nav navbar-nav navbar-right">
+                <li><a href="http://www.iooner.me/" class="blog">
+                    <i class="fa fa-file-text"></i><span>Blog</span>
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="live">
+                    <i class="fa fa-play"></i><span>Live</span>
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="labs">
+                    <i class="fa fa-flask"></i><span>Lab</span>
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="sharlii">
+                    <i class="fa fa-expand"></i><span>Liens</span> 
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="shop">
+                    <i class="fa fa-shopping-cart"></i><span>Shop</span>
+                </a></li>
+                
+            </ul> 
+        </div>
+      </div>
+    </div>
+    <!-- Menu Scroll-->
+    <div class="navbar menu_scroll navbar-fixed-top hidden-xs hidden-sm" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="/img/logo.png" class="img-brand" alt="logo"/></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                
+                                <li><a href="/">Accueil</a></li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/categories">Catégories</a></li>
+                    <li><a href="/changelog">ChangeLog</a></li>
+                  </ul>
+                </li> 
+
+                <li><a href="/social">Socialize me</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">A Propos<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/apropos">A Propos</a></li>
+                    <li><a target="_blank" href="http://old.iooner.me/">Ancien Blog</a></li>
+                    <li><a href="/stuff">Stuff</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                  </ul>
+                </li>              
+
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/irc">IRC</a></li>
+                  </ul>
+                </li>
+
+                <li><input type="text" placeholder="Rechercher...">
+                <input type="submit" value=""></li>
+            </ul>
+            <ul class="other_sites nav navbar-nav navbar-right">
+
+                <li><a href="http://www.iooner.me/soon" class="live">
+                    <i class="fa fa-play"></i> 
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="labs">
+                    <i class="fa fa-flask"></i>
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="sharlii">
+                    <i class="fa fa-expand"></i> 
+                </a></li>
+                <li><a href="http://www.iooner.me/soon" class="shop">
+                    <i class="fa fa-shopping-cart"></i> 
+                </a></li>
+
+
+            </ul> 
+        </div>
+      </div>
+    </div>
+    <!-- Menu Classic -->
+    <header class="hidden-xs hidden-sm">
+        <div class="upper">
+            <div class="container">
+                <ul class="col-lg-4 col-md-4 networks">
+                    <li><a href="https://www.facebook.com/lckxbe" class="facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a></li>
+                    <li><a href="https://twitter.com/iooner" class="twitter">
+                        <i class="fa fa-twitter"></i>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/keyeux" class="linkedin">
+                        <i class="fa fa-linkedin"></i>
+                    </a></li>
+                    <li><a href="http://instagram.com/iooner" class="instagram">
+                        <i class="fa fa-instagram"></i>
+                    </a></li>
+                </ul>
+
+                <ul class="col-lg-8 col-md-8 nav_sites">
+                    <li><a href="http://www.iooner.me" class="blog">
+                        <i class="fa fa-file-text"></i> Blog
+                    </a></li>
+                    <li><a href="http://www.iooner.me/soon" class="live">
+                        <i class="fa fa-play"></i> Live
+                    </a></li>
+                    <li><a href="http://www.iooner.me/soon" class="labs">
+                        <i class="fa fa-flask"></i> Lab
+                    </a></li>
+                    <li><a href="http://www.iooner.me/soon" class="sharlii">
+                        <i class="fa fa-expand"></i> Liens
+                    </a></li>
+                    <li><a href="http://www.iooner.me/soon" class="shop">
+                        <i class="fa fa-shopping-cart"></i> Shop
+                    </a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="container">
+                <div class="col-lg-4 col-md-4 logo">
+                    <img src="/img/logo.png" class="img-responsive" alt="logo"/>
+                </div>
+                <ul class="col-lg-8 col-md-8 nav_blog">
+ 
+                                    <li><a href="/">Accueil</a></li>
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/categories">Catégories</a></li>
+                    <li><a href="/changelog">ChangeLog</a></li>
+                  </ul>
+                </li> 
+
+                <li><a href="/social">Socialize me</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">A Propos<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/apropos">A Propos</a></li>
+                    <li><a target="_blank" href="http://old.iooner.me/">Ancien Blog</a></li>
+                    <li><a href="/stuff">Stuff</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                  </ul>
+                </li>              
+
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/irc">IRC</a></li>
+                  </ul>
+                </li>
+
+                    <li><input type="text" placeholder="Rechercher...">
+                    <input type="submit" value=""></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- FIN MENUS (RESPONSIVE + FIXED TOP + HEADER) --> 
+<!-- fin header.html -->  
+	<div id="blog" class="contenu container">
+    	<!-- side.html --> 
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <article class="text-center pt-0 hidden-xs hidden-sm">
+                <img src="/img/avatar.png" class="avatar img-responsive" alt="avatar"/>
+                <h1>Loïc Aka iooner</h1>
+                <hr />
+                <p>Belge, 22 ans, développeur web<br>#maker, #hacker, #geek, #urbex.</p>
+                <a href="/apropos">Lire plus...</a>
+            </article>
+
+           <article class="text-center pt-0 hidden-md hidden-lg">
+                <h1>Loïc Aka iooner</h1>
+                <hr />
+                <p>Belge, 22 ans, développeur web<br>#maker, #hacker, #geek, #urbex.</p>
+                <a href="/apropos">Lire plus...</a>
+            </article>
+
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Mes autres sites</h1>
+                <hr />
+                <ul class="nav">
+                    <li><a target="_blank" href="http://www.bukkit.fr/"><i class="fa fa-external-link-square"></i> Bukkit France</a></li>
+                    <li><a target="_blank" href="http://www.lckx.me/"><i class="fa fa-external-link-square"></i> LcKx (Portfolio)</a></li>
+
+                </ul>
+            </article>     
+
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Les copains</h1>
+                <hr />
+                <ul class="nav">
+                    <li><a target="_blank" href="http://blog.nicolasc.eu/"><i class="fa fa-external-link-square"></i> Nicolas C.</a></li>
+                    <li><a target="_blank" href="http://www.manuel-esteban.com/"><i class="fa fa-external-link-square"></i> Yaug's Corner</a></li>
+                    <li><a target="_blank" href="http://vincpad.me/"><i class="fa fa-external-link-square"></i> Vincpad</a></li>
+                    <li><a target="_blank" href="http://studiotwan.com/"><i class="fa fa-external-link-square"></i> StudioTwan</a></li>
+                    <li><a target="_blank" href="http://www.lokoise.com/"><i class="fa fa-external-link-square"></i> Lokoise</a></li>
+                    <li><a target="_blank" href="http://www.magdiblog.fr/"><i class="fa fa-external-link-square"></i> Magdiblog</a></li>
+                    <li><a target="_blank" href="http://kernelpanik.fr/"><i class="fa fa-external-link-square"></i> KernelPanik</a></li>
+                    <li><a target="_blank" href="http://serveurperso.com/"><i class="fa fa-external-link-square"></i> ServeurPerso</a></li>
+                </ul>
+            </article>        
+ 
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Twitter</h1>
+                <hr />
+                    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/iooner" data-widget-id="554577477855870976">Tweets de @iooner</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </article> 
+
+
+
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Je soutiens</h1>
+                <hr />
+                <ul class="nav">
+                    <li><a target="_blank" href="http://www.theairboard.cc/"><i class="fa fa-external-link-square"></i> TheAirBoard</a></li>
+                    <li><a target="_blank" href="http://sparklinlabs.com/"><i class="fa fa-external-link-square"></i> SuperPowers <em>Sparklinlabs</em></a></li>
+                    <li><a target="_blank" href="http://www.mysensors.org/"><i class="fa fa-external-link-square"></i> MySensors</a></li>
+
+                </ul>
+            </article>
+
+            <!--
+            <article class="hidden-xs hidden-sm">
+                <h1 class="text-center">Archives</h1>
+                <hr />
+                <ul class="nav">
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Septembre 2014</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Août 2014</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Juillet 2014</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Juin 2014</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right"></i> Mai 2014</a></li>
+                </ul>
+            </article>
+            -->
+        </div>
+
+<!-- fin side.html --> 
+        	<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+    <article class="feed">
+      <div class="title">
+        
+          <h1>
+              Plaque de Chladni à base de récup'
+          </h1>
+          
+          <h5>Auteur <strong>iooner</strong> - Categorie <strong>diy</strong> - 29/07/2015</h5>
+      </div>
+      
+      <div class="img_full">
+        <img class="img-full" src="/img/upload/chladni.jpg" alt="Plaque de Chladni à base de récup'" />
+      </div>
+      
+      <div class="text">
+       <h2 id="chladni-kzako">Chladni kézako?!</h2>
+<p>Ernst Chladni est le fondateur de l’acoustique moderne. Il étudiait expérimentalement les vibrations des plaques, en les saupoudrant de sable fin, obtenant ainsi des figures acoustiques. <em>Wikipédia</em>  </p>
+
+<p><strong>Si vous souhaitez en savoir plus sur les figures de Chladni :</strong></p>
+
+<ul>
+  <li>En français chez ExpérimentBoy : <a href="https://www.youtube.com/watch?v=VSxRJPTxO9U">https://www.youtube.com/watch?v=VSxRJPTxO9U</a>  </li>
+  <li>En anglais chez PhysicsGirl : <a href="https://www.youtube.com/watch?v=wYoxOJDrZzw">https://www.youtube.com/watch?v=wYoxOJDrZzw</a></li>
+</ul>
+
+<h2 id="cest-parti-">C’est parti !</h2>
+<p>L’idée est donc de réaliser une “plaque de Chladni” pour pas un rond ou presque. J’ai eu l’envie de m’y coller en triant les photos de la MakerFaire 2015 voyant une photo d’un gars ayant réalisé un montage semblable à celui que je vais vous décrire.<br />
+Durant mes recherches je suis tombé sur ce “<a href="http://www.instructables.com/id/Mechanical-Wave-Driver-for-Chladni-Plate/">instructable</a>” qui va être notre base de travail.  </p>
+
+<p><strong>Il vous faudra :</strong>  </p>
+
+<ul>
+  <li>Une pièce de bois,</li>
+  <li>De la tige filetée de 5,</li>
+  <li>Ecrous de 5,</li>
+  <li>Une plaque d’alu plutôt fine,</li>
+  <li>Un vieux haut-parleur,</li>
+  <li>Un bouchon de bouteille (Coca-Cola dans mon cas),</li>
+  <li>Un pistolet à colle,</li>
+  <li>De quoi souder et un peu de câble audio.</li>
+</ul>
+
+<p>Ce qui est bien, c’est que j’avais tout sous la main !</p>
+
+<h2 id="sortez-les-outils-">Sortez les outils !</h2>
+
+<p>Je découpe un vieux diffuseur et je récupère le haut-parleur qui s’y trouve.</p>
+
+<div class="row">
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step1.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step1.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step2.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step2.jpg" alt="" />  
+    </a>
+  </div>
+     <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step3.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step3.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Un coup de fer à souder, on enlève les vieux fils pour remplacer par de nouveau qui n’est pas rongé.<br />
+Une photo sympa avec de la sciure de bois qui traînait avant de commencer les choses sérieuses.</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step4.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step4.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step5.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step5.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step6.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step6.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Au cutter, retirer la membrane en papier du haut-parleur, attention à ne pas percer celle en dessous.</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step7.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step7.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step8.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step8.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Percer à la mèche de 5 le bouchon de bouteille bien au centre. Passer la tige filetée et deux écrous. Il suffit de serrer le tout et le tour est joué !</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step9.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step9.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step10.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step10.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Préparation d’un support sympa avec un morceau de bois dans lequel sont enfoncés des morceaux de tige filetée. Effiler le haut-parleur et le fixer. Un coup de pistolet à colle et notre tige centrale est fixée !</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step11.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step11.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step12.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step12.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step13.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step13.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<p>Un petit morceau de plexy qui traînait recoupé aux bonnes mesures est un petit ajout des plus sympathique ! Il est fixé à son tour.<br />
+Un écrou sur la tige centrale, notre plaque d’alu (19cm x 19cm ici) et un autre écrou. Bien serrer le tout ! Les vibrations ont du talent à revendre dans le désserrage.</p>
+
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step14.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step14.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step15.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step15.jpg" alt="" />  
+    </a>
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <a href="/img/upload/chladni/step16.jpg" class="thumbnail" data-gallery="">
+      <img src="/img/upload/chladni/step16.jpg" alt="" />  
+    </a>
+  </div>
+</div>
+
+<h2 id="rsultat">Résultat</h2>
+<p><strong>Une petite démonstration vaut mieux que dix mille mots !</strong>  </p>
+
+<p>Le haut-parleur est connecté à un ampli et à son tour sur mon smartphone avec l’application PA Tone qui fait plutôt bien le boulot.  </p>
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/_hFfYj4ivKk" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p><br /><br /></p>
+
+<p>Les résultats ne sont pas exceptionnels, mais cela permet déjà de jouer avec les figures de Chladni à vraiment pas cher. :) Je pense qu’une place d’alu un peu plus grande et plus fine donnerait de meilleurs résultats. Un vibreur ne doit pas être très cher, mais c’est tellement plus fun de jouer avec ce que l’on a sous la main dans son atelier :)<br />
+<br /><br />
+Avant de se quitter une autre vidéo juste pour le fun. <em>(Désolé pour le choix de la musique)</em>.  </p>
+
+<div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/75W25aHGHys" frameborder="0" allowfullscreen=""></iframe></div>
+
+
+       
+          <div class="share">
+              
+              <h3>Partager :</h3>
+                <div class="sharebtn">
+                  <a class="btn-share facebook" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://www.facebook.com/sharer/sharer.php?u=https://www.iooner.me/plaque-de-chladni-a-base-de-recup/" rel="nofollow"><i class="fa fa-facebook"></i> Facebook</a>
+                  <a class="btn-share twitter" target="_blank" title="Cliquez pour partager sur Tweeter" href="http://twitter.com/home?status=Plaque de Chladni à base de récup' https://www.iooner.me/plaque-de-chladni-a-base-de-recup/ via @iooner" rel="nofollow"><i class="fa fa-twitter"></i> Twitter</a>
+                  <a class="btn-share google" target="_blank" title="Cliquez pour partager sur Tweeter" href="https://plus.google.com/share?url=https://www.iooner.me/plaque-de-chladni-a-base-de-recup/" rel="nofollow"><i class="fa fa-google-plus"></i> Google+</a>
+                  <!--<a class="btn-share flattr" href="https://flattr.com/submit/auto?user_id=iooner&url=https://www.iooner.me/plaque-de-chladni-a-base-de-recup/" target="_blank"><i class="fa fa-money"></i> Flattr</a>-->
+                </div>
+              
+              <br />
+              <h3>Catégories & Tags :</h3>
+              <span>
+                <strong>Catégories:</strong>
+                
+                
+                  diy,
+                
+                
+                
+                    science
+                
+                
+                <br />
+                <strong>Tags:</strong> 
+                
+                  
+                    Chladni,
+                  
+                
+                  
+                    plaque,
+                  
+                
+                  
+                    DIY,
+                  
+                
+                  
+                    figures
+                  
+                
+              </span>
+
+          </div>
+          
+
+    
+   <h2 id="commentaires">Commentaires</h2>
+   <p>N'hésitez pas à laisser un commentaire, de préférence respectueux et/ou constructif.</p>
+   <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'iooner'; 
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+      
+      </div>
+   </article>
+  </div>
+
+
+
+	</div>
+    <!-- footer.html -->  
+    <footer>
+        <div class="container">
+            <p>Moulé à la louche with ♥ in Principauté de Liège par <a href="http://www.lckx.me/">LcKx</a> avec Jekyll - Design par <a href="http://theokleman.com/">Théo Kleman</a> - <a href="https://www.iooner.me/changelog">ChangeLog</a> - Flux RSS : <a href="https://www.iooner.me/feed.xml">XML</a> - <a href="https://www.iooner.me/posts.json">JSON</a></p>
+
+            <p class="hidden-md hidden-lg">
+                <strong>Le copains : <a target="_blank" href="http://www.manuel-esteban.com/">Yaug's Corner</a>
+                 - <a target="_blank" href="http://vincpad.me/">Vincpad</a>
+                 - <a target="_blank" href="http://studiotwan.com/">StudioTwan</a>
+                 - <a target="_blank" href="http://www.lokoise.com/">Lokoise</a>
+                 - <a target="_blank" href="http://www.magdiblog.fr/">Magdiblog</a>
+                 - <a target="_blank" href="http://ioe.kubeek.com/">Michoo42</a>
+                 - <a target="_blank" href="http://kernelpanik.fr/">KernelPanik</a>
+                 - <a target="_blank" href="http://oxhak.fr/">Oxhak</a>
+            </p>
+             
+        </div>
+    </footer>
+<!-- fin footer.html --> 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45067060-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+            <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+        <div id="blueimp-gallery" class="blueimp-gallery">
+            <!-- The container for the modal slides -->
+            <div class="slides"></div>
+            <!-- Controls for the borderless lightbox -->
+            <h3 class="title"></h3>
+            <ol class="indicator"></ol>
+            <!-- The modal dialog, which will be used to wrap the lightbox content -->
+            <div class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title"></h4>
+                        </div>
+                        <div class="modal-body next"></div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default pull-left prev">
+                                <i class="glyphicon glyphicon-chevron-left"></i>
+                                Précédent
+                            </button>
+                            <button type="button" class="btn btn-primary next">
+                                Suivant
+                                <i class="glyphicon glyphicon-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
